@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#e9e5dc">
+
+    <title>Memoria Histórica | Friso Digital</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        .text-expansion { margin-top: 1rem; max-width: 65ch; }
+        .text-expansion summary { cursor: pointer; font-weight: 600; text-decoration: underline; text-underline-offset: 4px; }
+        .text-expansion p, .text-expansion li { line-height: 1.65; margin-top: .65rem; }
+        .text-expansion ul { padding-left: 1.2rem; }
+        .text-expansion[open] summary { margin-bottom: .5rem; }
+        .intro-expansion { max-width: 38rem; }
+        .sources-expansion { font-size: .9rem; }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- INTRODUCCIÓN -->
+
+    <section class="intro-screen" id="intro">
+
+        <div class="intro-inner">
+
+            <div class="intro-top">
+                <span>Recuperación de Sociales · Friso digital</span>
+                <span>2026</span>
+            </div>
+
+            <div class="intro-main">
+
+                <p class="small-label">Una forma diferente de presentar un trabajo</p>
+
+                <h1>
+                    Memoria<br>
+                    <span>histórica.</span>
+                </h1>
+
+                <p class="intro-description">
+                    Un friso digital sobre el Centro Nacional de Memoria Histórica: su historia, objetivos y aportes.
+                </p>
+                <details class="text-expansion intro-expansion">
+                    <summary>¿Por qué lo hice en formato web?</summary>
+                    <p>Quise presentar el trabajo de una forma diferente y aprovechar algo que me gusta, que es el desarrollo web. La idea es que siga siendo un friso, pero que se pueda recorrer desde el celular o el computador. A veces uno empieza con algo sencillo y termina agregándole más cosas de la cuenta, pero esta vez quería que la tecnología realmente ayudara a presentar el tema.</p>
+                </details>
+
+                <div class="intro-author">
+                    Diseñado y desarrollado por Carlos Antonio.
+                </div>
+
+                <button class="start-button" id="startButton">
+                    Comenzar recorrido
+                    <span>→</span>
+                </button>
+
+            </div>
+
+            <div class="intro-footer">
+                <span>Desliza para recorrer</span>
+                <span>01 — 08</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FRISO -->
+
+    <main class="frieze" id="frieze">
+
+        <!-- BARRA SUPERIOR -->
+
+        <header class="topbar">
+
+            <a href="#" class="brand" id="homeButton">
+                <span class="brand-mark">M</span>
+
+                <span>
+                    <strong>Memoria histórica</strong>
+                    <small>Friso digital</small>
+                </span>
+            </a>
+
+            <div class="topbar-info">
+                <span id="sectionName">Introducción</span>
+                <span class="page-number" id="pageNumber">01 / 08</span>
+            </div>
+
+        </header>
+
+
+        <!-- CONTENEDOR HORIZONTAL -->
+
+        <div
+            class="frieze-track"
+            id="track"
+            role="region"
+            aria-label="Viñetas del friso digital"
+            tabindex="0"
+        >
+
+
+            <!-- PANEL 1: PORTADA -->
+
+            <section class="panel cover-panel" aria-label="Portada del friso" tabindex="0">
+
+                <div class="panel-inner cover-layout">
+
+                    <div class="cover-text">
+
+                        <span class="section-label">
+                            HISTORIA · MEMORIA · PAZ
+                        </span>
+
+                        <h1>
+                            Centro Nacional<br>
+                            de Memoria<br>
+                            <span>Histórica.</span>
+                        </h1>
+
+                        <p class="cover-description">
+                            El Centro Nacional de Memoria Histórica ayuda a reconstruir lo que pasó durante el conflicto armado colombiano y a mantener vivas las historias de quienes lo vivieron.
+                        </p>
+                        <details class="text-expansion">
+                            <summary>Leer más</summary>
+                            <p>Su trabajo reúne investigaciones, testimonios y documentos para comprender el conflicto, reconocer a las víctimas y compartir esa memoria con la sociedad. No se trata solo de guardar información, sino de darle contexto y hacerla accesible.</p>
+                        </details>
+
+                        <div class="cover-details">
+
+                            <div>
+                                <span>ESTUDIANTE</span>
+                                <strong>Carlos Antonio</strong>
+                            </div>
+
+                            <div>
+                                <span>INSTITUCIÓN</span>
+                                <strong>Tecnico Comercial Sagrado Corazon de Jesus </strong>
+                            </div>
+
+                            <div>
+                                <span>GRADO</span>
+                                <strong> Decimo-Uno</strong>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="cover-visual">
+
+                        <div class="cover-image">
+
+                            <div class="image-caption">
+                                COLOMBIA<br>
+                                MEMORIA Y DIGNIDAD
+                            </div>
+
+                        </div>
+
+                        <div class="cover-side-note">
+                            UNA HISTORIA QUE MERECE SER CONTADA
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- PANEL 2: ORIGEN -->
+
+            <section class="panel timeline-panel" aria-label="Contexto histórico" tabindex="0">
+
+                <div class="panel-inner">
+
+                    <div class="panel-heading">
+
+                        <span class="section-label">
+                            01 / CONTEXTO HISTÓRICO
+                        </span>
+
+                        <h2>
+                            El origen de<br>
+                            una memoria colectiva.
+                        </h2>
+
+                        <p>
+                            Antes de existir el Centro, ya había personas y organizaciones que buscaban contar lo ocurrido. Su creación reunió parte de esos esfuerzos y les dio un marco institucional.
+                        </p>
+
+                    </div>
+
+
+                    <div class="timeline-horizontal">
+
+                        <article class="timeline-event">
+
+                            <span class="timeline-year">2007</span>
+
+                            <div class="timeline-dot"></div>
+
+                            <h3>Grupo de Memoria Histórica</h3>
+
+                            <p>
+                                En el contexto de la Ley de Justicia y Paz se impulsó el trabajo de memoria histórica. El Grupo de Memoria Histórica se consolidó en 2007 dentro de la Comisión Nacional de Reparación y Reconciliación.
+                            </p>
+
+                        </article>
+
+
+                        <article class="timeline-event">
+
+                            <span class="timeline-year">2011</span>
+
+                            <div class="timeline-dot"></div>
+
+                            <h3>Ley de Víctimas</h3>
+
+                            <p>
+                                La Ley de Víctimas y Restitución de Tierras estableció la creación del Centro de Memoria Histórica y reconoció la importancia de reconstruir la memoria del conflicto y dignificar a las víctimas.
+                            </p>
+
+                        </article>
+
+
+                        <article class="timeline-event">
+
+                            <span class="timeline-year">2011</span>
+
+                            <div class="timeline-dot"></div>
+
+                            <h3>Organización institucional</h3>
+
+                            <p>
+                                El Decreto 4803 de 2011 definió la estructura y las funciones del Centro, como la recuperación, conservación y análisis de documentos y testimonios.
+                            </p>
+
+                        </article>
+
+                    </div>
+
+                    <div class="timeline-note">
+                        La memoria no depende únicamente de una institución. También se construye desde las víctimas, sus familias y las comunidades que cuentan lo que vivieron.
+                    </div>
+                    <details class="text-expansion">
+                        <summary>¿Qué cambió con su creación?</summary>
+                        <p>Los esfuerzos de memoria que venían desarrollándose desde el Grupo de Memoria Histórica pasaron a tener una entidad nacional con funciones definidas por la ley. Esto permitió ampliar la investigación, preservar archivos y divulgar resultados.</p>
+                    </details>
+
+                </div>
+
+            </section>
+
+
+            <!-- PANEL 3: EVOLUCIÓN -->
+
+            <section class="panel evolution-panel" aria-label="Evolución del Centro" tabindex="0">
+
+                <div class="panel-inner">
+
+                    <div class="panel-heading">
+
+                        <span class="section-label">
+                            02 / EVOLUCIÓN
+                        </span>
+
+                        <h2>
+                            De la investigación<br>
+                            a la memoria pública.
+                        </h2>
+
+                    </div>
+
+
+                    <div class="evolution-layout">
+
+                        <div class="evolution-image">
+
+                            <div class="image-caption">
+                                ARCHIVOS · TESTIMONIOS · DOCUMENTACIÓN
+                            </div>
+
+                        </div>
+
+
+                        <div class="evolution-list">
+
+                            <article>
+
+                                <span>2013</span>
+
+                                <div>
+
+                                    <h3>¡Basta Ya!</h3>
+
+                                    <p>
+                                        Se publica el informe ¡Basta Ya! Colombia: memorias de guerra y dignidad, que reúne investigaciones y relatos para explicar las dimensiones y consecuencias del conflicto armado.
+                                    </p>
+
+                                </div>
+
+                            </article>
+
+
+                            <article>
+
+                                <span>2014–2018</span>
+
+                                <div>
+
+                                    <h3>Investigación territorial</h3>
+
+                                    <p>
+                                        Durante estos años continuaron los informes, la documentación de casos y la recopilación de testimonios de diferentes regiones del país.
+                                    </p>
+
+                                </div>
+
+                            </article>
+
+
+                            <article>
+
+                                <span>2019–2023</span>
+
+                                <div>
+
+                                    <h3>Memoria y pedagogía</h3>
+
+                                    <p>
+                                        Se desarrollaron y difundieron trabajos de memoria, actividades pedagógicas y procesos con comunidades. Estos esfuerzos también han tenido cambios y debates institucionales.
+                                    </p>
+
+                                </div>
+
+                            </article>
+
+
+                            <article>
+
+                                <span>2024–2026</span>
+
+                                <div>
+
+                                    <h3>Actualidad</h3>
+
+                                    <p>
+                                        El Centro sigue trabajando en investigación, archivos, pedagogía y memoria territorial. En 2024, la Ley 2421 modificó disposiciones de la Ley de Víctimas relacionadas con su objeto y funciones.
+                                    </p>
+
+                                </div>
+
+                            </article>
+
+                        </div>
+
+                    </div>
+                    <details class="text-expansion">
+                        <summary>Ampliar esta etapa</summary>
+                        <p>El recorrido no fue completamente lineal: la institución y sus enfoques han cambiado con el tiempo. Los periodos de la línea del tiempo son una forma sencilla de organizar algunos hitos, no una lista de todos los proyectos realizados.</p>
+                    </details>
+
+                </div>
+
+            </section>
+
+
+            <!-- PANEL 4: OBJETIVOS -->
+
+            <section class="panel objectives-panel" aria-label="Objetivos del Centro" tabindex="0">
+
+                <div class="panel-inner">
+
+                    <div class="panel-heading">
+
+                        <span class="section-label">
+                            03 / OBJETIVOS
+                        </span>
+
+                        <h2>
+                            ¿Qué busca<br>
+                            el Centro?
+                        </h2>
+
+                        <p>
+                            En pocas palabras, busca que lo ocurrido no quede en el olvido. Para eso investiga, reúne testimonios y documentos, y comparte esa información con la sociedad.
+                        </p>
+
+                    </div>
+
+
+                    <div class="objectives-layout">
+
+                        <div class="objective-main">
+
+                            <span class="objective-number">00</span>
+
+                            <h3>
+                                Reconstruir y preservar
+                                la memoria histórica.
+                            </h3>
+
+                            <p>
+                                Investigar lo ocurrido, recuperar testimonios y ayudar a que se conozcan las distintas experiencias del conflicto, incluyendo los daños y las formas de resistencia.
+                            </p>
+
+                        </div>
+
+
+                        <div class="objective-item">
+
+                            <span>01</span>
+
+                            <h3>Esclarecer la verdad</h3>
+
+                            <p>
+                                Busca reunir información confiable para entender cómo ocurrió la violencia, qué la causó y qué consecuencias dejó.
+                            </p>
+
+                        </div>
+
+
+                        <div class="objective-item">
+
+                            <span>02</span>
+
+                            <h3>Preservar testimonios</h3>
+
+                            <p>
+                                Recopila y conserva testimonios, documentos, fotografías y otros materiales que permitan reconstruir lo ocurrido.
+                            </p>
+
+                        </div>
+
+
+                        <div class="objective-item">
+
+                            <span>03</span>
+
+                            <h3>Dignificar a las víctimas</h3>
+
+                            <p>
+                                Busca que las víctimas sean reconocidas, que sus relatos tengan un lugar y que también se conozcan sus formas de resistir y seguir adelante.
+                            </p>
+
+                        </div>
+
+
+                        <div class="objective-item">
+
+                            <span>04</span>
+
+                            <h3>Promover la no repetición</h3>
+
+                            <p>
+                                Promueve el aprendizaje sobre el conflicto y la reflexión para que hechos similares no vuelvan a ocurrir.
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <details class="text-expansion">
+                        <summary>Ver explicación</summary>
+                        <p>Estos objetivos se complementan: investigar permite documentar, preservar los materiales evita que se pierdan, y divulgar lo aprendido ayuda a que la memoria llegue a más personas. El trabajo también reconoce las voces y experiencias de las víctimas.</p>
+                    </details>
+
+                </div>
+
+            </section>
+
+
+            <!-- PANEL 5: LOGROS -->
+
+            <section class="panel achievements-panel" aria-label="Resultados y logros" tabindex="0">
+
+                <div class="panel-inner">
+
+                    <div class="panel-heading">
+
+                        <span class="section-label">
+                            04 / RESULTADOS
+                        </span>
+
+                        <h2>
+                            La memoria<br>
+                            se convierte en legado.
+                        </h2>
+
+                    </div>
+
+
+                    <div class="achievements-layout">
+
+                        <article class="achievement">
+
+                            <span class="achievement-number">01</span>
+
+                            <h3>Investigaciones</h3>
+
+                            <p>
+                                Ha producido investigaciones e informes que documentan hechos, contextos, comunidades afectadas y distintas dinámicas del conflicto.
+                            </p>
+
+                        </article>
+
+
+                        <article class="achievement">
+
+                            <span class="achievement-number">02</span>
+
+                            <h3>Testimonios</h3>
+
+                            <p>
+                                Los testimonios permiten conocer experiencias que muchas veces no aparecen en documentos oficiales y conservarlas como parte de la memoria colectiva.
+                            </p>
+
+                        </article>
+
+
+                        <article class="achievement">
+
+                            <span class="achievement-number">03</span>
+
+                            <h3>Museo de Memoria</h3>
+
+                            <p>
+                                El Museo de Memoria y las exposiciones buscan acercar estas historias a la ciudadanía mediante espacios de reflexión y aprendizaje.
+                            </p>
+
+                        </article>
+
+
+                        <article class="achievement">
+
+                            <span class="achievement-number">04</span>
+
+                            <h3>Archivos</h3>
+
+                            <p>
+                                Los archivos ayudan a conservar documentos y materiales que pueden servir para investigaciones, consultas y procesos de memoria.
+                            </p>
+
+                        </article>
+
+
+                        <article class="achievement">
+
+                            <span class="achievement-number">05</span>
+
+                            <h3>Educación</h3>
+
+                            <p>
+                                El Centro realiza actividades y materiales educativos para que más personas conozcan la historia del conflicto y sus consecuencias.
+                            </p>
+
+                        </article>
+
+
+                        <article class="achievement">
+
+                            <span class="achievement-number">06</span>
+
+                            <h3>Comunidades</h3>
+
+                            <p>
+                                También acompaña iniciativas de memoria que nacen en comunidades y territorios, donde las personas cuentan su propia historia.
+                            </p>
+
+                        </article>
+
+                    </div>
+                    <details class="text-expansion">
+                        <summary>¿Por qué son importantes estos logros?</summary>
+                        <p>Los informes, archivos, exposiciones y procesos comunitarios son distintas maneras de hacer que la memoria sea accesible. No reemplazan la reparación ni la justicia, pero pueden aportar al reconocimiento de las víctimas y a la comprensión de lo ocurrido.</p>
+                    </details>
+
+                </div>
+
+            </section>
+
+
+            <!-- PANEL 6: DERECHOS -->
+
+            <section class="panel rights-panel" aria-label="Derechos humanos" tabindex="0">
+
+                <div class="panel-inner">
+
+                    <div class="panel-heading">
+
+                        <span class="section-label">
+                            05 / DERECHOS HUMANOS
+                        </span>
+
+                        <h2>
+                            La memoria<br>
+                            también es un derecho.
+                        </h2>
+
+                        <p>
+                            Su trabajo se relaciona con varios derechos de las víctimas, como conocer la verdad, recibir reparación simbólica y preservar la memoria. No todos dependen directamente del CNMH.
+                        </p>
+
+                    </div>
+
+
+                    <div class="rights-layout">
+
+                        <article class="right-item">
+
+                            <div class="right-generation">
+                                01
+                            </div>
+
+                            <div>
+
+                                <h3>Verdad</h3>
+
+                                <span>Primera generación</span>
+
+                                <p>
+                                    Las víctimas y la sociedad tienen derecho a conocer qué ocurrió. La investigación y los testimonios pueden ayudar a esclarecer los hechos.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+                        <article class="right-item">
+
+                            <div class="right-generation">
+                                01
+                            </div>
+
+                            <div>
+
+                                <h3>Justicia</h3>
+
+                                <span>Primera generación</span>
+
+                                <p>
+                                    La justicia busca investigar las violaciones, establecer responsabilidades y garantizar el acceso a mecanismos judiciales. El CNMH no juzga ni condena.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+                        <article class="right-item">
+
+                            <div class="right-generation">
+                                02
+                            </div>
+
+                            <div>
+
+                                <h3>Reparación</h3>
+
+                                <span>Segunda generación</span>
+
+                                <p>
+                                    La reparación busca atender los daños sufridos. Puede incluir medidas económicas, sociales, simbólicas y otras acciones, según el caso.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+                        <article class="right-item">
+
+                            <div class="right-generation">
+                                02
+                            </div>
+
+                            <div>
+
+                                <h3>Memoria histórica</h3>
+
+                                <span>Segunda generación</span>
+
+                                <p>
+                                    La memoria permite conservar relatos, reconocer lo vivido y transmitir esa historia a otras generaciones.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+                        <article class="right-item">
+
+                            <div class="right-generation">
+                                03
+                            </div>
+
+                            <div>
+
+                                <h3>Paz</h3>
+
+                                <span>Tercera generación</span>
+
+                                <p>
+                                    La paz implica que las personas y comunidades puedan vivir sin violencia y que se atiendan las causas que la generan.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+
+                        <article class="right-item">
+
+                            <div class="right-generation">
+                                03
+                            </div>
+
+                            <div>
+
+                                <h3>No repetición</h3>
+
+                                <span>Tercera generación</span>
+
+                                <p>
+                                    Busca que se tomen medidas para evitar que las violaciones de derechos humanos vuelvan a ocurrir.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+                    <details class="text-expansion">
+                        <summary>¿Cuál es la relación con el CNMH?</summary>
+                        <p>El Centro contribuye especialmente a la memoria, el esclarecimiento y la reparación simbólica. La garantía integral de estos derechos involucra a otras instituciones del Estado, organizaciones y a la sociedad.</p>
+                    </details>
+
+                </div>
+
+            </section>
+
+
+            <!-- PANEL 7: CUADRO COMPARATIVO -->
+
+            <section class="panel comparison-panel" aria-label="Cuadro comparativo" tabindex="0">
+
+                <div class="panel-inner">
+
+                    <div class="panel-heading">
+
+                        <span class="section-label">
+                            06 / CUADRO COMPARATIVO
+                        </span>
+
+                        <h2>
+                            Derechos y generaciones.
+                        </h2>
+
+                        <p>
+                            Una clasificación para entender cómo se relacionan estos derechos con distintas generaciones. Es una guía académica, porque algunos derechos pueden abarcar más de una.
+                        </p>
+
+                    </div>
+
+
+                    <div class="comparison-table-wrapper">
+
+                        <table class="comparison-table">
+
+                            <thead>
+
+                                <tr>
+
+                                    <th>Derecho</th>
+
+                                    <th>Generación</th>
+
+                                    <th>¿Por qué pertenece?</th>
+
+                                </tr>
+
+                            </thead>
+
+
+                            <tbody>
+
+                                <tr>
+
+                                    <td>Verdad</td>
+
+                                    <td>
+                                        <span class="generation-label">
+                                            Primera
+                                        </span>
+                                    </td>
+
+                                    <td>
+                                        Se suele relacionar con derechos civiles y políticos, como acceder a información y conocer la verdad. Su clasificación puede variar según el enfoque.
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+
+                                    <td>Justicia</td>
+
+                                    <td>
+                                        <span class="generation-label">
+                                            Primera
+                                        </span>
+                                    </td>
+
+                                    <td>
+                                        Se vincula con garantías civiles y políticas y con el acceso a la justicia. El CNMH aporta memoria e información, pero la función judicial corresponde a otras entidades.
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+
+                                    <td>Reparación</td>
+
+                                    <td>
+                                        <span class="generation-label">
+                                            Segunda
+                                        </span>
+                                    </td>
+
+                                    <td>
+                                        La reparación puede incluir medidas económicas, sociales, culturales y simbólicas; por eso no se limita a una sola generación de derechos.
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+
+                                    <td>Memoria histórica</td>
+
+                                    <td>
+                                        <span class="generation-label">
+                                            Segunda
+                                        </span>
+                                    </td>
+
+                                    <td>
+                                        Se relaciona con la identidad, la cultura y la memoria colectiva; por eso puede abordarse desde derechos culturales y colectivos.
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+
+                                    <td>Paz</td>
+
+                                    <td>
+                                        <span class="generation-label">
+                                            Tercera
+                                        </span>
+                                    </td>
+
+                                    <td>
+                                        La paz suele estudiarse entre los derechos colectivos o de tercera generación, porque involucra a la sociedad en conjunto.
+                                    </td>
+
+                                </tr>
+
+
+                                <tr>
+
+                                    <td>No repetición</td>
+
+                                    <td>
+                                        <span class="generation-label">
+                                            Tercera
+                                        </span>
+                                    </td>
+
+                                    <td>
+                                        La no repetición exige medidas que prevengan nuevas violaciones. Se relaciona con derechos individuales y colectivos, así que no encaja de forma exclusiva en una generación.
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+
+                    <div class="comparison-note">
+
+                        Esta clasificación sirve para estudiar los derechos, pero no es absoluta: algunos, como la reparación, la verdad y la no repetición, se relacionan con varias generaciones o enfoques.
+
+                    </div>
+                    <details class="text-expansion">
+                        <summary>¿Cómo interpretar el cuadro?</summary>
+                        <p>Las generaciones de derechos son una manera tradicional de agruparlos según su desarrollo histórico. La tabla propone una relación para la actividad escolar, no una clasificación jurídica definitiva. La verdad, la reparación y la no repetición pueden tener dimensiones civiles, sociales, culturales y colectivas.</p>
+                    </details>
+
+                </div>
+
+            </section>
+
+
+            <!-- PANEL 8: REFLEXIÓN Y CIERRE -->
+
+            <section class="panel closing-panel" aria-label="Reflexión final" tabindex="0">
+
+                <div class="panel-inner closing-layout">
+
+                    <div class="closing-main">
+
+                        <span class="section-label">
+                            07 / REFLEXIÓN FINAL
+                        </span>
+
+                        <h2>
+                            Recordar para<br>
+                            <span>no repetir.</span>
+                        </h2>
+
+                        <p>
+                            Conocer lo que pasó en Colombia ayuda a entender que el conflicto no afectó a todos de la misma manera. También permite reconocer a las víctimas y pensar en qué podemos hacer como sociedad para construir paz.
+                        </p>
+
+                        <p>
+                            Para mí, recordar no es quedarse viviendo en el pasado. Es aprender de lo ocurrido, escuchar a quienes fueron afectados y evitar que esas historias se repitan. Por eso la memoria histórica sigue siendo importante hoy.
+                        </p>
+
+                    </div>
+
+
+                    <div class="closing-footer">
+
+                        <div class="closing-line"></div>
+
+                        <div class="closing-credit">
+
+                            <span>
+                                FRISO DIGITAL
+                            </span>
+
+                            <strong>
+                                Carlos Antonio
+                            </strong>
+
+                        </div>
+
+                        <button class="restart-button" id="restartButton">
+                            Volver al comienzo
+                        </button>
+
+                    </div>
+                    <details class="text-expansion sources-expansion">
+                        <summary>Fuentes para consultar</summary>
+                        <ul>
+                            <li><a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=43043" target="_blank" rel="noopener">Ley 1448 de 2011 — Ley de Víctimas y Restitución de Tierras</a></li>
+                            <li><a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=45078" target="_blank" rel="noopener">Decreto 4803 de 2011</a></li>
+                            <li><a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=250056" target="_blank" rel="noopener">Ley 2421 de 2024</a></li>
+                            <li><a href="https://centrodememoriahistorica.gov.co/" target="_blank" rel="noopener">Centro Nacional de Memoria Histórica</a></li>
+                        </ul>
+                    </details>
+
+                </div>
+
+            </section>
+
+
+        </div>
+
+
+        <!-- CONTROLES INFERIORES -->
+
+        <footer class="controls">
+
+            <button
+                class="control-button"
+                id="prevButton"
+                aria-label="Panel anterior"
+            >
+                <span>←</span>
+                <span class="control-text">Anterior</span>
+            </button>
+
+
+            <div class="progress-container">
+
+                <div class="progress-track">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+
+                <div class="progress-dots" id="progressDots"></div>
+
+            </div>
+
+
+            <button
+                class="control-button"
+                id="nextButton"
+                aria-label="Panel siguiente"
+            >
+                <span class="control-text">Siguiente</span>
+                <span>→</span>
+            </button>
+
+        </footer>
+
+
+        <div class="drag-indicator" id="dragIndicator">
+            ARRASTRA PARA EXPLORAR
+        </div>
+
+    </main>
+
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
